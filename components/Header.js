@@ -1,7 +1,24 @@
-import React from 'react';
+import React from "react";
+import Image from "next/image";
+import Logo from "../public/img/header/logo.svg";
 
 const Header = () => {
-  return <div>Header</div>;
+  return (
+    <header className=" py-6 lg:absolute lg:w-full lg:left-0">
+      <div className="container mx-auto flex flex-col lg:flex-row gap-y-6 items-center lg:justify-around">
+        <a href="#">
+          <Image src={Logo} alt="logo" />
+        </a>
+        <nav className="text-xl lg:text-lg flex gap-x-5 lg:gap-x-12">
+          <a href="#">Services</a>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+        <button className="btn btn-primary lg:btn-outline">Sign up</button>
+      </div>
+    </header>
+  );
 };
 
 export default Header;
