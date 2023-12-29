@@ -1,6 +1,6 @@
 # Pet Shop Landing Page
 
-🐾 Welcome to the Pet Shop Landing Page repository! Explore the design on Figma: [Figma Design](<your Figma design link here>)
+🐾 Welcome to the Pet Shop Landing Page repository! Explore the design on Figma: [Figma Design]('https://www.figma.com/file/HLq5uoCo0VgurS6iGQrM1W/Pet-shop-landing-page-design-(Community)?type=design&node-id=1-2&mode=design&t=Oa1Pu5j3VZ70S27k-0')
 
  
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
