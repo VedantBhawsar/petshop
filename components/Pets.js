@@ -54,21 +54,22 @@ const Pets = () => {
  hidden xl:flex xl:w-[30%] xl:pl-[160px]
         "
         >
-          <Image src={Badge} alt="badge-img"  />
+          <Image src={Badge} alt="badge-img" draggable="false" />
         </div>
         <div className="flex-1 py-5 gap-y-8 flex flex-col lg:flex-row lg:items-center">
           {/* selected Pets */}
           <div className="flex flex-col items-center flex-1  gap-2">
-            <h1 className="text-white text-4xl font-bold text-center">
-              {selectedPet.category} <br />
+            <h1 className="text-white text-4xl font-bold text-center gap-1 flex items-center">
+              {selectedPet.category}
               <span className="text-white text-xl font-normal">
-                {selectedPet.name}
+                ({selectedPet.name})
               </span>
             </h1>
             <Image
               src={selectedPet.image}
               alt="selected pt"
               className="w-1/4 object-cover border-4 rounded-full"
+              draggable="false"
             />
           </div>
           <div className="flex flex-wrap  gap-4 justify-evenly lg:justify-end flex-1  px-2 lg:px-5">
