@@ -5,6 +5,7 @@
 @layer base {
   body {
     @apply font-primary text-primary text-2xl;
+    scroll-behavior: smooth;
   }
   .h2 {
     @apply text-[46px] font-medium leading-tight;

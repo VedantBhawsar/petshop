@@ -6,7 +6,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 const Services = () => {
   return (
     <section
-      id="#service"
+      id="service"
       className="bg-services bg-cover bg-no-repeat bg-center min-h-[862px]  items-center flex"
     >
       <div className="container mx-auto min-[862px]">

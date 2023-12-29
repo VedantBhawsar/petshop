@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     // max-w-[1440px]
-    <div className="mx-auto overflow-hidden">
+    <div className="mx-auto overflow-hidden scroll-smooth">
       <Hero />
       <Pets />
       <Services />

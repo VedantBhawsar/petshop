@@ -5,7 +5,10 @@ import Img1 from "../public/img/adoption/img1.png";
 
 const Adoption = () => {
   return (
-    <section className="bg-adoption bg-cover bg-center bg-no-repeat min-h-[760px] py-8 flex  ">
+    <section
+      id="about"
+      className="bg-adoption bg-cover bg-center bg-no-repeat min-h-[760px] py-8 flex  "
+    >
       <div className="container mx-auto flex flex-col lg:flex-row ">
         {/* Image */}
         <div className="flex-1 flex justify-center items-center">

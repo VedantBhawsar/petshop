@@ -5,7 +5,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 const Newsletter = () => {
   return (
-    <section>
+    <section id="blog">
       <div className="h-[800px] flex flex-1 flex-col lg:h-[324px] lg:flex-row-reverse">
         <div className="bg-newsletterOrange bg-center bg-cover bg-no-repeat flex-1 flex flex-col items-center px-8 lg:px-16 justify-center h-full ">
           <h1 className="h2">Subscribe & Get Pet Updatenews</h1>

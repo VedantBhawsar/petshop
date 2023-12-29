@@ -12,13 +12,18 @@ const Footer = () => {
       </div>
       <ul className="text-lg flex items-center  text-white gap-x-5">
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">Project</a>
+          <a
+            href="https://github.com/VedantBhawsar?tab=repositories"
+            target="_blank"
+          >
+            Project
+          </a>
         </li>
         <li>
-          <a href="#">Service</a>
+          <a href="#service">Service</a>
         </li>
 
         <li>
@@ -26,13 +31,13 @@ const Footer = () => {
         </li>
       </ul>
       <div className="text-white flex items-center  gap-x-5">
-        <a href="https://github.com/VedantBhawsar/" target="_blank">
+        <a href="https://github.com/VedantBhawsar" target="_blank">
           <FaGithub size={35} />
         </a>
         <a href="https://instagram.com/simply.vedant" target="_blank">
           <FaInstagram size={35} />
         </a>
-        <a href="mailto:vedantdevelopers">
+        <a href="mailto:vedantb.developer@gmail.com" target="_blank">
           <AiOutlineMail size={35} />
         </a>
       </div>
